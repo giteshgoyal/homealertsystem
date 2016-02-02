@@ -1,0 +1,18 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.23026.0 (cd7dd67d).
+//
+// d:\projects\motiontracking\motiontracking\release\mail.tli
+//
+// Wrapper implementations for Win32 type library C:\Users\Gitesh\Documents\Visual Studio 2015\Projects\MAIL\MAIL\bin\Debug\MAIL.tlb
+// compiler-generated file created 01/31/16 at 16:12:15 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface ICalculator wrapper method implementations
+//
+
+inline HRESULT ICalculator::mailsms ( ) {
+    HRESULT _hr = raw_mailsms();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

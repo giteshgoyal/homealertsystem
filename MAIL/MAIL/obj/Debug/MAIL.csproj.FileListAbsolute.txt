@@ -1,0 +1,6 @@
+c:\users\gitesh\documents\visual studio 2015\Projects\MAIL\MAIL\obj\Debug\MAIL.csprojResolveAssemblyReference.cache
+c:\users\gitesh\documents\visual studio 2015\Projects\MAIL\MAIL\bin\Debug\MAIL.dll
+c:\users\gitesh\documents\visual studio 2015\Projects\MAIL\MAIL\bin\Debug\MAIL.pdb
+c:\users\gitesh\documents\visual studio 2015\Projects\MAIL\MAIL\bin\Debug\SmsClient.dll
+c:\users\gitesh\documents\visual studio 2015\Projects\MAIL\MAIL\obj\Debug\MAIL.dll
+c:\users\gitesh\documents\visual studio 2015\Projects\MAIL\MAIL\obj\Debug\MAIL.pdb

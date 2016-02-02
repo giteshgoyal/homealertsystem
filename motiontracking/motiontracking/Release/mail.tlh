@@ -1,0 +1,72 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.23026.0 (cd7dd67d).
+//
+// d:\projects\motiontracking\motiontracking\release\mail.tlh
+//
+// C++ source equivalent of Win32 type library C:\Users\Gitesh\Documents\Visual Studio 2015\Projects\MAIL\MAIL\bin\Debug\MAIL.tlb
+// compiler-generated file created 01/31/16 at 16:12:15 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace MAIL {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("e31779f9-e324-4506-a425-21229e6894c5"))
+/* LIBID */ __MAIL;
+struct __declspec(uuid("45368770-d483-396e-b29d-6a3230754336"))
+/* dual interface */ ICalculator;
+struct /* coclass */ Class1;
+struct __declspec(uuid("584599f6-77f1-3aa4-9d47-6a21cb5b83c8"))
+/* dual interface */ _Class1;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ICalculator, __uuidof(ICalculator));
+_COM_SMARTPTR_TYPEDEF(_Class1, __uuidof(_Class1));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("45368770-d483-396e-b29d-6a3230754336"))
+ICalculator : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT mailsms ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_mailsms ( ) = 0;
+};
+
+struct __declspec(uuid("e282ceb5-e6c0-36b2-87f6-a58172decdb8"))
+Class1;
+    // [ default ] interface _Class1
+    // interface _Object
+    // interface ICalculator
+
+struct __declspec(uuid("584599f6-77f1-3aa4-9d47-6a21cb5b83c8"))
+_Class1 : IDispatch
+{};
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\projects\motiontracking\motiontracking\release\mail.tli"
+
+} // namespace MAIL
+
+#pragma pack(pop)
